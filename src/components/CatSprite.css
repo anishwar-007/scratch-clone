@@ -1,0 +1,4 @@
+.character {
+  transition: width 1s, height 1s, background-color 1s, transform 1s,
+    position 2s, left 2s, right 2s, scale 1s, top 1s;
+}
