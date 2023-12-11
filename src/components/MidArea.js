@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { addList } from "../redux/midarea/actions";
 import { Droppable, Draggable } from "react-beautiful-dnd";
-import { getComponent } from "./getComponents";
+import { getComponent } from "./allComps";
 import { createStyles, makeStyles, withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import AddIcon from "@material-ui/icons/Add";
