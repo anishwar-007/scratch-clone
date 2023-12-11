@@ -7,7 +7,7 @@ const Move = ({ character, comp_id }) => {
   const [steps, setSteps] = useState(0);
 
   // Function used for moving Sprint
-  const moveX = () => {
+  const move = () => {
     const el = document.getElementById(`${character.active}-div`);
 
     var left = el.offsetLeft;
@@ -20,7 +20,7 @@ const Move = ({ character, comp_id }) => {
       <div
         id={comp_id}
         className={`text-center rounded bg-red-700 text-white p-2 my-2 text-sm cursor-pointer mx-auto`}
-        onClick={() => moveX()}
+        onClick={() => move()}
       >
         Move X{" "}
         <input

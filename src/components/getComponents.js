@@ -1,5 +1,5 @@
 import React from "react";
-import Move from "./motion/MoveX";
+import Move from "./motion/Move";
 import TurnAntiClockwise from "./motion/TurnAntiClockwise";
 import TurnClockwise from "./motion/TurnClockwise";
 import GotoXY from "./motion/Goto";
